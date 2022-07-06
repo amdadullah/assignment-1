@@ -1,3 +1,77 @@
 body {
     font-family: 'PT Serif', serif;
 }
+/**header-area start**/
+header {
+    background-image: url(images/donation7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height: auto;
+    text-align: center;
+    color:#fff;
+    overflow:hidden;
+    padding: 100px 0px;
+}
+header h1 {
+    font-size: 48px;
+}
+header p {
+    margin-bottom: 50px;
+}
+.link-button {
+  background-color: #ff4d4d;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;  
+} 
+/**header-area End**/
+
+/**donate-area start**/
+.donate-area {
+    text-align: center;
+    margin: 50px 0px;
+}
+.donate-top h2 {
+    font-size:30px;
+}
+.donate-center ul {
+    
+}
+.donate-center ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+}
+.donate-center a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000;
+}
+.donate-center a:hover {
+    border: 1px solid #ff4d4d;
+    color:#ff4d4d;
+    padding: 20px 15px;
+    background-color: #fcc;
+}
+.active {
+    border: 1px solid #ff4d4d;
+    color:#ff4d4d !important;
+    padding: 20px 15px;
+    background-color: #fcc;
+}
+.donate-bottom {
+    display: block;
+    overflow: hidden;
+}
+.donate-bottom input {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/**donate-area end**/
