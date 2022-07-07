@@ -1,4 +1,7 @@
 body {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
     font-family: 'PT Serif', serif;
 }
 /**header-area start**/
@@ -67,11 +70,78 @@ header p {
 }
 .donate-bottom input {
     display: block;
-    margin: auto;
+    margin:auto;
     padding: 5px;
     border: none;
     border-bottom: 1px solid #ddd;
     text-align: center;
 }
+.donate-button {
+    margin-top:20px;
+}
+.donate-button a {
+  background-color: #ff4d4d;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;  
+  display:inline-block;
+}
 
 /**donate-area end**/
+
+/**donate-plan-area start**/
+.donate-plan {
+    overflow: hidden;
+}
+.donate-plan h2 {
+    text-align: center;
+    font-size: 30px;
+}
+.donate-plan p {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.same {
+    display:inline-block;
+    float: left;
+    overflow: hidden;
+    width:33.33%;
+    text-align: left;
+}
+.same-left {
+    background-color: rgb(203, 228, 220);
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+}
+.same-middle {
+    background-color: rgb(237, 203, 203);
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+}
+.same-right {
+    background-color: #f8afaf;
+    padding: 15px;
+    margin: 15px;
+    text-align: left;
+}
+/**donate-plan-area end**/
+
+/**footer area start**/
+footer {
+    text-align: center;
+    background-color: #0B0D17;
+    margin: 50px 0px;
+    padding: 30px 0px;  
+}
+footer h3 {
+    color:#FF5959;
+    font-style: italic;
+    font-size: 30px;
+}
+footer p {
+    color:#fff;
+}
+/**footer area end**/
